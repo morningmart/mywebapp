@@ -7,20 +7,13 @@
   </properties>
   
   <groupId>com.jeevan.testing</groupId>
-  <artifactId>seleniumautomation</artifactId>
+  <artifactId>mywebappdev</artifactId>
   <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
-  <name>seleniumautomation Maven Webapp</name>
+  <name>mywebappdev Maven Webapp</name>
   <url>http://maven.apache.org</url>
   
   <dependencies>
-
-	<dependency>
-	  <groupId>org.testng</groupId>
-	  <artifactId>testng</artifactId>
-	  <version>6.8</version>
-	  <scope>test</scope>
-	</dependency>
 
     <dependency>
     <groupId>javax.servlet</groupId>
@@ -46,7 +39,7 @@
   </dependencies>
   
   <build>
-    <finalName>seleniumautomation</finalName>
+    <finalName>mywebappdev</finalName>
     <plugins>
     	<plugin>
     		<groupId>org.apache.maven.plugins</groupId>
